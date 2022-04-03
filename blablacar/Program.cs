@@ -7,6 +7,9 @@ namespace Architektura_Systemów
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Symulator Intel 8086");
+
+
             Console.WriteLine("Podaj zawartosc rejestru AL");
             String AL = Convert.ToString(Console.ReadLine());
             Console.WriteLine("Podaj zawartosc rejestru AH");
